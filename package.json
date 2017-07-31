@@ -1,0 +1,17 @@
+{
+  "name": "is-mangled",
+  "version": "1.0.0",
+  "description": "A simple one-liner to detect whether its execution environment had been mangled (minified) or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha"
+  },
+  "author": "Daniel Kovacs",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "nyc": "^11.1.0",
+    "uglify-js": "^3.0.27"
+  }
+}
